@@ -2,7 +2,7 @@
   "name": "alextrahangout",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./js/script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/malek379/alextrahangout#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "fs": "^0.0.1-security",
     "mongoose": "^6.1.8"
   }
 }

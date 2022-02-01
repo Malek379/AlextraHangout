@@ -1,0 +1,79 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow-x: hidden;
+  margin-top: 40px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #000;
+  user-select: none;
+}
+
+#t, #desc {
+  margin-top: 20px;
+  font-size: 34.5px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+#desc {
+  font-size: 23px;
+  font-weight: 600;
+  color: gray;
+}
+
+#card {
+  width: 275px;
+  height: 475px;
+  margin-top: 50px;
+  margin-left: 45px;
+  border: 3px solid royalblue;
+  border-radius: 25px;
+  background: #fff;
+}
+
+
+input, #btn {
+  width: 245px;
+  height: 35px;
+  padding: 9px 21px;
+  margin-top: 20px;
+  margin-left: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: royalblue;
+  color: #fff;
+  outline: none;
+}
+
+input:hover, #btn:hover,
+input:active, #btn:active {
+  border: 3px solid royalblue;
+  background: #fff;
+  color: #000;
+  transition: .5s;
+}
+
+#btn {
+  width: 120px;
+  height: 40px;
+  margin-left: 120px;
+  color: #fff;
+}
+
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
